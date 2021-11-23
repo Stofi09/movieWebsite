@@ -14,6 +14,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.24.0",
+    "history": "^5.1.0",
     "material-table": "^1.69.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.0.2"
   }
 }
