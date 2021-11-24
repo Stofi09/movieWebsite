@@ -1,9 +1,10 @@
 import React from 'react'
+import MovieTable from "./MovieTable";
 
 const Member = () => {
     return (
         <div>
-            Member
+           <MovieTable/>
         </div>
     )
 }
