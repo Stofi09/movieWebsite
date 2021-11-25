@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import MaterialTable from "material-table";
 import { getMovieList, postMovie, deleteMovie, updateMovie} from "./axios/Axios";
 import { Select, MenuItem, Menu } from "@material-ui/core";
-import Video from "./Video";
 import YoutubeVideo from "./YoutubeVideo";
 
 // Return two table in if statements => editable/ not editable
