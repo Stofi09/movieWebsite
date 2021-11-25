@@ -37,10 +37,10 @@ const deleteAdmin = (id) => {
 
 /*Movies*/
 
-const GET_ALL_MOVIES = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/movie/all"
-const POST_MOVIE = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/movie/add";
-const DELETE_MOVIE = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/movie/delete/"
-const UPDATE_MOVIE = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/movie/update";
+const GET_ALL_MOVIES = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/all"
+const POST_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/add";
+const DELETE_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/delete/"
+const UPDATE_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/update";
 
 const getMovieList = () => {
   return axios.get(GET_ALL_MOVIES);
