@@ -4,10 +4,10 @@ import axios from "axios";
 
 
 /*Admin*/ 
-const GET_ALL_ADMIN = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/admin/all";
-const POST_ADMIN = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/admin/add";
-const UPDATE_ADMIN = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/admin/update";
-const DELETE_ADMIN = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/admin/delete/"
+const GET_ALL_ADMIN = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/admin/all";
+const POST_ADMIN = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/admin/add";
+const UPDATE_ADMIN = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/admin/update";
+const DELETE_ADMIN = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/admin/delete/"
 
 const getAdminList = () => {
     return axios.get(GET_ALL_ADMIN);
@@ -37,10 +37,10 @@ const deleteAdmin = (id) => {
 
 /*Movies*/
 
-const GET_ALL_MOVIES = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/all"
-const POST_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/add";
-const DELETE_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/delete/"
-const UPDATE_MOVIE = "http://ec2-18-119-128-27.us-east-2.compute.amazonaws.com:8080/movie/update";
+const GET_ALL_MOVIES = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/movie/all"
+const POST_MOVIE = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/movie/add";
+const DELETE_MOVIE = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/movie/delete/"
+const UPDATE_MOVIE = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/movie/update";
 
 const getMovieList = () => {
   return axios.get(GET_ALL_MOVIES);
@@ -69,10 +69,10 @@ const updateMovie = (updatedMovie) => {
 
 /*Member */
 
-const GET_ALL_MEMBERS = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/member/all"
-const POST_MEMBER = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/member/add";
-const DELETE_MEMBER = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/member/delete/"
-const UPDATE_MEMBER = "http://ec2-3-145-32-74.us-east-2.compute.amazonaws.com:8080/member/update";
+const GET_ALL_MEMBERS = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/member/all"
+const POST_MEMBER = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/member/add";
+const DELETE_MEMBER = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/member/delete/"
+const UPDATE_MEMBER = "http://ec2-18-222-12-54.us-east-2.compute.amazonaws.com:8080/member/update";
 
 const getMemberList = () => {
   return axios.get(GET_ALL_MEMBERS);
