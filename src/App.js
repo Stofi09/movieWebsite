@@ -18,12 +18,11 @@ function App() {
   return (
     <Router>
     <div className="App">
-
     <Navbar/>
-   <Routes>
-   <Route path='/admin' element={<Admin/>} />
-   <Route path='/member' element={<Member/>} />
-   </Routes>
+    <Routes>
+    <Route path='/admin' element={<Admin/>} />
+    <Route path='/member' element={<Member/>} />
+    </Routes>
     <Footer/>
     </div>
     </Router>

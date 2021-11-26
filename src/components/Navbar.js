@@ -10,9 +10,8 @@ const Navbar = () => {
             <li className="logo md">Logo.</li>
                 <nav>
                     <ul>
-                    <li> <Link to="/">Home</Link></li>
-                    <li className="adminLink"> <Link to="/admin">Blog Articles</Link></li>
-                    <li className="memberLink"> <Link to="/member">Contact Me</Link></li>
+                    <li className="adminLink"> <Link to="/admin">Admin</Link></li>
+                    <li className="memberLink"> <Link to="/member">Member</Link></li>
                     </ul>
                 </nav>
             </div>

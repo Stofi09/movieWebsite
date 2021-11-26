@@ -1,9 +1,14 @@
 import React from 'react'
+import AdminTable from './AdminTable';
+import MemberTable from './MemberTable';
+import MovieTable from "./MovieTable";
 
 const Admin = () => {
     return (
         <div>
-            This is admin
+        <AdminTable/>
+        <MemberTable/>
+        <MovieTable/>
         </div>
     )
 }

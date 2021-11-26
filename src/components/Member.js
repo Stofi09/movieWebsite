@@ -1,10 +1,12 @@
 import React from 'react'
-import MovieTable from "./MovieTable";
+import Section  from './Section';
+import UnEditableMovieTable from './UnEditableMovieTable';
 
 const Member = () => {
     return (
         <div>
-           <MovieTable/>
+            <Section/>
+           <UnEditableMovieTable/>
         </div>
     )
 }
