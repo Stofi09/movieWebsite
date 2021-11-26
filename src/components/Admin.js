@@ -6,9 +6,9 @@ import MovieTable from "./MovieTable";
 const Admin = () => {
     return (
         <div>
+         <MovieTable/>
         <AdminTable/>
         <MemberTable/>
-        <MovieTable/>
         </div>
     )
 }
